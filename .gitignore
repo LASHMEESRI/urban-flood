@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw datasets
+data/raw/
+
+# Large generated datasets
+data/processed/chennai_offline_risk_dataset.csv
+data/processed/chennai_offline_risk_dataset_v2.csv
+data/processed/chennai_flood_model_dataset.csv
+data/processed/chennai_time_aware_rainfall.csv
+data/processed/chennai_rainfall_grid.csv
+
+# Temporary / backup source files
+src/components/*backup*.tsx
+src/services/*backup*.ts

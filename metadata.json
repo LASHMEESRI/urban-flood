@@ -1,0 +1,10 @@
+{
+  "name": "Urban Flood Nowcasting Dashboard",
+  "description": "Real-time GIS-based flood early-warning system for smart cities (SIH Problem Statement SIH26085).",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* Google Maps & Material Canvas styles */
+.leaflet-container {
+  background-color: #e5e3df !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Google Maps clean white popup wrapper */
+.google-maps-popup .leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #202124 !important;
+  border-radius: 1rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 8px 24px rgba(60, 64, 67, 0.28) !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.google-maps-popup .leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.google-maps-popup .leaflet-popup-tip {
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 4px 8px rgba(60, 64, 67, 0.15) !important;
+}
+
+.google-maps-popup .leaflet-popup-close-button {
+  color: #70757a !important;
+  padding: 6px !important;
+  top: 6px !important;
+  right: 6px !important;
+  font-size: 16px !important;
+}
+
+.google-maps-popup .leaflet-popup-close-button:hover {
+  color: #202124 !important;
+}
+
+/* Utility to hide horizontal scrollbars in chip strip */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f3f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bdc1c6;
+}
+
+/* Radar pulse & sweep animation */
+@keyframes radar-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-radar-sweep {
+  animation: radar-sweep 4s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes ping-slow {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+.animate-ping-slow {
+  animation: ping-slow 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

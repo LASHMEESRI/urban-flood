@@ -1,0 +1,713 @@
+[
+  {
+    "sequence_id": 1,
+    "input_start": "2022-01-11 05:00:00",
+    "input_end": "2022-01-11 10:00:00",
+    "target_timestamp": "2022-01-11 11:00:00",
+    "rainfall_sequence": "1.0|3.5|1.5|2.5|13.5|9.5",
+    "water_level_sequence": "1.37|1.367|1.367|1.368|1.364|1.364",
+    "target_water_level": 1.362
+  },
+  {
+    "sequence_id": 2,
+    "input_start": "2022-01-11 06:00:00",
+    "input_end": "2022-01-11 11:00:00",
+    "target_timestamp": "2022-01-11 12:00:00",
+    "rainfall_sequence": "3.5|1.5|2.5|13.5|9.5|5.0",
+    "water_level_sequence": "1.367|1.367|1.368|1.364|1.364|1.362",
+    "target_water_level": 1.362
+  },
+  {
+    "sequence_id": 3,
+    "input_start": "2022-01-11 07:00:00",
+    "input_end": "2022-01-11 12:00:00",
+    "target_timestamp": "2022-01-11 13:00:00",
+    "rainfall_sequence": "1.5|2.5|13.5|9.5|5.0|3.5",
+    "water_level_sequence": "1.367|1.368|1.364|1.364|1.362|1.362",
+    "target_water_level": 1.362
+  },
+  {
+    "sequence_id": 4,
+    "input_start": "2022-01-11 08:00:00",
+    "input_end": "2022-01-11 13:00:00",
+    "target_timestamp": "2022-01-11 14:00:00",
+    "rainfall_sequence": "2.5|13.5|9.5|5.0|3.5|9.25",
+    "water_level_sequence": "1.368|1.364|1.364|1.362|1.362|1.362",
+    "target_water_level": 1.362
+  },
+  {
+    "sequence_id": 5,
+    "input_start": "2022-01-11 09:00:00",
+    "input_end": "2022-01-11 14:00:00",
+    "target_timestamp": "2022-01-11 15:00:00",
+    "rainfall_sequence": "13.5|9.5|5.0|3.5|9.25|16.75",
+    "water_level_sequence": "1.364|1.364|1.362|1.362|1.362|1.362",
+    "target_water_level": 1.362
+  },
+  {
+    "sequence_id": 6,
+    "input_start": "2022-01-11 10:00:00",
+    "input_end": "2022-01-11 15:00:00",
+    "target_timestamp": "2022-01-11 16:00:00",
+    "rainfall_sequence": "9.5|5.0|3.5|9.25|16.75|3.0",
+    "water_level_sequence": "1.364|1.362|1.362|1.362|1.362|1.362",
+    "target_water_level": 1.354
+  },
+  {
+    "sequence_id": 7,
+    "input_start": "2022-01-11 11:00:00",
+    "input_end": "2022-01-11 16:00:00",
+    "target_timestamp": "2022-01-11 17:00:00",
+    "rainfall_sequence": "5.0|3.5|9.25|16.75|3.0|1.5",
+    "water_level_sequence": "1.362|1.362|1.362|1.362|1.362|1.354",
+    "target_water_level": 1.363
+  },
+  {
+    "sequence_id": 8,
+    "input_start": "2022-02-11 00:00:00",
+    "input_end": "2022-02-11 05:00:00",
+    "target_timestamp": "2022-02-11 06:00:00",
+    "rainfall_sequence": "9.0|22.75|60.5|13.0|93.75|769.5",
+    "water_level_sequence": "0.578|0.577|0.578|0.578|0.575|0.576",
+    "target_water_level": 0.577
+  },
+  {
+    "sequence_id": 9,
+    "input_start": "2022-02-11 01:00:00",
+    "input_end": "2022-02-11 06:00:00",
+    "target_timestamp": "2022-02-11 07:00:00",
+    "rainfall_sequence": "22.75|60.5|13.0|93.75|769.5|1412.5",
+    "water_level_sequence": "0.577|0.578|0.578|0.575|0.576|0.577",
+    "target_water_level": 0.578
+  },
+  {
+    "sequence_id": 10,
+    "input_start": "2022-02-11 02:00:00",
+    "input_end": "2022-02-11 07:00:00",
+    "target_timestamp": "2022-02-11 08:00:00",
+    "rainfall_sequence": "60.5|13.0|93.75|769.5|1412.5|69.0",
+    "water_level_sequence": "0.578|0.578|0.575|0.576|0.577|0.578",
+    "target_water_level": 0.58
+  },
+  {
+    "sequence_id": 11,
+    "input_start": "2022-02-11 03:00:00",
+    "input_end": "2022-02-11 08:00:00",
+    "target_timestamp": "2022-02-11 09:00:00",
+    "rainfall_sequence": "13.0|93.75|769.5|1412.5|69.0|40.0",
+    "water_level_sequence": "0.578|0.575|0.576|0.577|0.578|0.58",
+    "target_water_level": 0.581
+  },
+  {
+    "sequence_id": 12,
+    "input_start": "2022-02-11 04:00:00",
+    "input_end": "2022-02-11 09:00:00",
+    "target_timestamp": "2022-02-11 10:00:00",
+    "rainfall_sequence": "93.75|769.5|1412.5|69.0|40.0|170.5",
+    "water_level_sequence": "0.575|0.576|0.577|0.578|0.58|0.581",
+    "target_water_level": 0.578
+  },
+  {
+    "sequence_id": 13,
+    "input_start": "2022-02-11 05:00:00",
+    "input_end": "2022-02-11 10:00:00",
+    "target_timestamp": "2022-02-11 11:00:00",
+    "rainfall_sequence": "769.5|1412.5|69.0|40.0|170.5|4.0",
+    "water_level_sequence": "0.576|0.577|0.578|0.58|0.581|0.578",
+    "target_water_level": 0.576
+  },
+  {
+    "sequence_id": 14,
+    "input_start": "2022-02-11 06:00:00",
+    "input_end": "2022-02-11 11:00:00",
+    "target_timestamp": "2022-02-11 12:00:00",
+    "rainfall_sequence": "1412.5|69.0|40.0|170.5|4.0|1.5",
+    "water_level_sequence": "0.577|0.578|0.58|0.581|0.578|0.576",
+    "target_water_level": 0.575
+  },
+  {
+    "sequence_id": 15,
+    "input_start": "2022-03-11 17:00:00",
+    "input_end": "2022-03-11 22:00:00",
+    "target_timestamp": "2022-03-11 23:00:00",
+    "rainfall_sequence": "6.833333333333333|6.333333333333333|2.333333333333333|1.5|11.0|10.0",
+    "water_level_sequence": "0.592|0.551|0.566|0.59|0.589|0.578",
+    "target_water_level": 0.578
+  },
+  {
+    "sequence_id": 16,
+    "input_start": "2022-12-12 10:00:00",
+    "input_end": "2022-12-12 15:00:00",
+    "target_timestamp": "2022-12-12 16:00:00",
+    "rainfall_sequence": "1.25|1.75|7.5|7.75|2.0|4.5",
+    "water_level_sequence": "1.271|1.275|1.283|1.333|1.44|1.572",
+    "target_water_level": 1.682
+  },
+  {
+    "sequence_id": 17,
+    "input_start": "2023-01-05 07:00:00",
+    "input_end": "2023-01-05 12:00:00",
+    "target_timestamp": "2023-01-05 13:00:00",
+    "rainfall_sequence": "1.0|1.0|0.5|0.5|4.25|0.5",
+    "water_level_sequence": "0.045|0.044|0.068|0.085|0.104|0.084",
+    "target_water_level": 0.072
+  },
+  {
+    "sequence_id": 18,
+    "input_start": "2023-01-05 08:00:00",
+    "input_end": "2023-01-05 13:00:00",
+    "target_timestamp": "2023-01-05 14:00:00",
+    "rainfall_sequence": "1.0|0.5|0.5|4.25|0.5|0.5",
+    "water_level_sequence": "0.044|0.068|0.085|0.104|0.084|0.072",
+    "target_water_level": 0.052
+  },
+  {
+    "sequence_id": 19,
+    "input_start": "2023-01-05 09:00:00",
+    "input_end": "2023-01-05 14:00:00",
+    "target_timestamp": "2023-01-05 15:00:00",
+    "rainfall_sequence": "0.5|0.5|4.25|0.5|0.5|0.5",
+    "water_level_sequence": "0.068|0.085|0.104|0.084|0.072|0.052",
+    "target_water_level": 0.042
+  },
+  {
+    "sequence_id": 20,
+    "input_start": "2023-01-05 10:00:00",
+    "input_end": "2023-01-05 15:00:00",
+    "target_timestamp": "2023-01-05 16:00:00",
+    "rainfall_sequence": "0.5|4.25|0.5|0.5|0.5|0.5",
+    "water_level_sequence": "0.085|0.104|0.084|0.072|0.052|0.042",
+    "target_water_level": 0.048
+  },
+  {
+    "sequence_id": 21,
+    "input_start": "2023-02-05 00:00:00",
+    "input_end": "2023-02-05 05:00:00",
+    "target_timestamp": "2023-02-05 06:00:00",
+    "rainfall_sequence": "2.0|2.0|0.5|2.25|12.0|2.833333333333333",
+    "water_level_sequence": "0.066|0.063|0.062|0.066|0.067|0.071",
+    "target_water_level": 0.071
+  },
+  {
+    "sequence_id": 22,
+    "input_start": "2023-02-05 01:00:00",
+    "input_end": "2023-02-05 06:00:00",
+    "target_timestamp": "2023-02-05 07:00:00",
+    "rainfall_sequence": "2.0|0.5|2.25|12.0|2.833333333333333|0.5",
+    "water_level_sequence": "0.063|0.062|0.066|0.067|0.071|0.071",
+    "target_water_level": 0.088
+  },
+  {
+    "sequence_id": 23,
+    "input_start": "2023-02-05 02:00:00",
+    "input_end": "2023-02-05 07:00:00",
+    "target_timestamp": "2023-02-05 08:00:00",
+    "rainfall_sequence": "0.5|2.25|12.0|2.833333333333333|0.5|0.5",
+    "water_level_sequence": "0.062|0.066|0.067|0.071|0.071|0.088",
+    "target_water_level": 0.098
+  },
+  {
+    "sequence_id": 24,
+    "input_start": "2023-02-05 10:00:00",
+    "input_end": "2023-02-05 15:00:00",
+    "target_timestamp": "2023-02-05 16:00:00",
+    "rainfall_sequence": "0.5|0.5|1.25|1.5|0.75|0.5",
+    "water_level_sequence": "0.084|0.081|0.068|0.173|0.08|0.085",
+    "target_water_level": 0.079
+  },
+  {
+    "sequence_id": 25,
+    "input_start": "2023-02-05 11:00:00",
+    "input_end": "2023-02-05 16:00:00",
+    "target_timestamp": "2023-02-05 17:00:00",
+    "rainfall_sequence": "0.5|1.25|1.5|0.75|0.5|0.5",
+    "water_level_sequence": "0.081|0.068|0.173|0.08|0.085|0.079",
+    "target_water_level": 0.08
+  },
+  {
+    "sequence_id": 26,
+    "input_start": "2023-02-05 12:00:00",
+    "input_end": "2023-02-05 17:00:00",
+    "target_timestamp": "2023-02-05 18:00:00",
+    "rainfall_sequence": "1.25|1.5|0.75|0.5|0.5|0.5",
+    "water_level_sequence": "0.068|0.173|0.08|0.085|0.079|0.08",
+    "target_water_level": 0.06
+  },
+  {
+    "sequence_id": 27,
+    "input_start": "2023-03-11 09:00:00",
+    "input_end": "2023-03-11 14:00:00",
+    "target_timestamp": "2023-03-11 15:00:00",
+    "rainfall_sequence": "0.5|6.5|6.0|7.5|2.0|0.5",
+    "water_level_sequence": "0.05|0.032|0.024|0.037|0.022|0.021",
+    "target_water_level": 0.027
+  },
+  {
+    "sequence_id": 28,
+    "input_start": "2023-03-11 10:00:00",
+    "input_end": "2023-03-11 15:00:00",
+    "target_timestamp": "2023-03-11 16:00:00",
+    "rainfall_sequence": "6.5|6.0|7.5|2.0|0.5|0.5",
+    "water_level_sequence": "0.032|0.024|0.037|0.022|0.021|0.027",
+    "target_water_level": 0.058
+  },
+  {
+    "sequence_id": 29,
+    "input_start": "2023-03-12 00:00:00",
+    "input_end": "2023-03-12 05:00:00",
+    "target_timestamp": "2023-03-12 06:00:00",
+    "rainfall_sequence": "3.5|3.0|8.5|3.0|3.75|1.5",
+    "water_level_sequence": "0.04|0.027|0.03|0.031|0.061|0.043",
+    "target_water_level": 0.029
+  },
+  {
+    "sequence_id": 30,
+    "input_start": "2023-12-12 14:00:00",
+    "input_end": "2023-12-12 19:00:00",
+    "target_timestamp": "2023-12-12 20:00:00",
+    "rainfall_sequence": "0.5|1.0|4.5|43.0|6.5|1.5",
+    "water_level_sequence": "10.055|10.055|10.058|10.057|10.052|10.049",
+    "target_water_level": 10.048
+  },
+  {
+    "sequence_id": 31,
+    "input_start": "2024-05-08 01:00:00",
+    "input_end": "2024-05-08 06:00:00",
+    "target_timestamp": "2024-05-08 07:00:00",
+    "rainfall_sequence": "2.0|7.0|5.5|16.25|12.5|10.75",
+    "water_level_sequence": "10.064|10.065|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 32,
+    "input_start": "2024-05-08 02:00:00",
+    "input_end": "2024-05-08 07:00:00",
+    "target_timestamp": "2024-05-08 08:00:00",
+    "rainfall_sequence": "7.0|5.5|16.25|12.5|10.75|3.25",
+    "water_level_sequence": "10.065|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 33,
+    "input_start": "2024-06-06 20:00:00",
+    "input_end": "2024-06-07 01:00:00",
+    "target_timestamp": "2024-06-07 02:00:00",
+    "rainfall_sequence": "14.0|8.25|2.0|2.5|22.75|3.75",
+    "water_level_sequence": "10.062|10.063|10.061|10.064|10.062|10.064",
+    "target_water_level": 10.062
+  },
+  {
+    "sequence_id": 34,
+    "input_start": "2024-06-06 21:00:00",
+    "input_end": "2024-06-07 02:00:00",
+    "target_timestamp": "2024-06-07 03:00:00",
+    "rainfall_sequence": "8.25|2.0|2.5|22.75|3.75|0.5",
+    "water_level_sequence": "10.063|10.061|10.064|10.062|10.064|10.062",
+    "target_water_level": 10.063
+  },
+  {
+    "sequence_id": 35,
+    "input_start": "2024-12-11 00:00:00",
+    "input_end": "2024-12-11 05:00:00",
+    "target_timestamp": "2024-12-11 06:00:00",
+    "rainfall_sequence": "0.5|1.0|2.0|1.0|4.5|8.333333333333334",
+    "water_level_sequence": "10.062|10.061|10.062|10.062|10.061|10.062",
+    "target_water_level": 10.062
+  },
+  {
+    "sequence_id": 36,
+    "input_start": "2024-12-11 01:00:00",
+    "input_end": "2024-12-11 06:00:00",
+    "target_timestamp": "2024-12-11 07:00:00",
+    "rainfall_sequence": "1.0|2.0|1.0|4.5|8.333333333333334|4.833333333333333",
+    "water_level_sequence": "10.061|10.062|10.062|10.061|10.062|10.062",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 37,
+    "input_start": "2024-12-11 02:00:00",
+    "input_end": "2024-12-11 07:00:00",
+    "target_timestamp": "2024-12-11 08:00:00",
+    "rainfall_sequence": "2.0|1.0|4.5|8.333333333333334|4.833333333333333|3.25",
+    "water_level_sequence": "10.062|10.062|10.061|10.062|10.062|10.061",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 38,
+    "input_start": "2024-12-11 03:00:00",
+    "input_end": "2024-12-11 08:00:00",
+    "target_timestamp": "2024-12-11 09:00:00",
+    "rainfall_sequence": "1.0|4.5|8.333333333333334|4.833333333333333|3.25|2.5",
+    "water_level_sequence": "10.062|10.061|10.062|10.062|10.061|10.061",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 39,
+    "input_start": "2024-12-11 04:00:00",
+    "input_end": "2024-12-11 09:00:00",
+    "target_timestamp": "2024-12-11 10:00:00",
+    "rainfall_sequence": "4.5|8.333333333333334|4.833333333333333|3.25|2.5|5.166666666666667",
+    "water_level_sequence": "10.061|10.062|10.062|10.061|10.061|10.061",
+    "target_water_level": 10.06
+  },
+  {
+    "sequence_id": 40,
+    "input_start": "2024-12-11 05:00:00",
+    "input_end": "2024-12-11 10:00:00",
+    "target_timestamp": "2024-12-11 11:00:00",
+    "rainfall_sequence": "8.333333333333334|4.833333333333333|3.25|2.5|5.166666666666667|4.0",
+    "water_level_sequence": "10.062|10.062|10.061|10.061|10.061|10.06",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 41,
+    "input_start": "2024-12-11 06:00:00",
+    "input_end": "2024-12-11 11:00:00",
+    "target_timestamp": "2024-12-11 12:00:00",
+    "rainfall_sequence": "4.833333333333333|3.25|2.5|5.166666666666667|4.0|2.0",
+    "water_level_sequence": "10.062|10.061|10.061|10.061|10.06|10.061",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 42,
+    "input_start": "2024-12-12 02:00:00",
+    "input_end": "2024-12-12 07:00:00",
+    "target_timestamp": "2024-12-12 08:00:00",
+    "rainfall_sequence": "10.0|3.5|0.5|0.5|11.75|2.0",
+    "water_level_sequence": "10.055|10.057|10.06|10.062|10.061|10.061",
+    "target_water_level": 10.06
+  },
+  {
+    "sequence_id": 43,
+    "input_start": "2024-12-12 03:00:00",
+    "input_end": "2024-12-12 08:00:00",
+    "target_timestamp": "2024-12-12 09:00:00",
+    "rainfall_sequence": "3.5|0.5|0.5|11.75|2.0|2.5",
+    "water_level_sequence": "10.057|10.06|10.062|10.061|10.061|10.06",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 44,
+    "input_start": "2024-12-12 04:00:00",
+    "input_end": "2024-12-12 09:00:00",
+    "target_timestamp": "2024-12-12 10:00:00",
+    "rainfall_sequence": "0.5|0.5|11.75|2.0|2.5|2.25",
+    "water_level_sequence": "10.06|10.062|10.061|10.061|10.06|10.061",
+    "target_water_level": 10.062
+  },
+  {
+    "sequence_id": 45,
+    "input_start": "2024-12-12 05:00:00",
+    "input_end": "2024-12-12 10:00:00",
+    "target_timestamp": "2024-12-12 11:00:00",
+    "rainfall_sequence": "0.5|11.75|2.0|2.5|2.25|2.5",
+    "water_level_sequence": "10.062|10.061|10.061|10.06|10.061|10.062",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 46,
+    "input_start": "2024-12-12 06:00:00",
+    "input_end": "2024-12-12 11:00:00",
+    "target_timestamp": "2024-12-12 12:00:00",
+    "rainfall_sequence": "11.75|2.0|2.5|2.25|2.5|4.5",
+    "water_level_sequence": "10.061|10.061|10.06|10.061|10.062|10.061",
+    "target_water_level": 10.06
+  },
+  {
+    "sequence_id": 47,
+    "input_start": "2024-12-12 07:00:00",
+    "input_end": "2024-12-12 12:00:00",
+    "target_timestamp": "2024-12-12 13:00:00",
+    "rainfall_sequence": "2.0|2.5|2.25|2.5|4.5|29.0",
+    "water_level_sequence": "10.061|10.06|10.061|10.062|10.061|10.06",
+    "target_water_level": 10.056
+  },
+  {
+    "sequence_id": 48,
+    "input_start": "2025-01-12 00:00:00",
+    "input_end": "2025-01-12 05:00:00",
+    "target_timestamp": "2025-01-12 06:00:00",
+    "rainfall_sequence": "0.5|0.5|1.5|0.75|0.5|0.75",
+    "water_level_sequence": "10.064|10.063|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 49,
+    "input_start": "2025-01-12 01:00:00",
+    "input_end": "2025-01-12 06:00:00",
+    "target_timestamp": "2025-01-12 07:00:00",
+    "rainfall_sequence": "0.5|1.5|0.75|0.5|0.75|0.5",
+    "water_level_sequence": "10.063|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 50,
+    "input_start": "2025-01-12 02:00:00",
+    "input_end": "2025-01-12 07:00:00",
+    "target_timestamp": "2025-01-12 08:00:00",
+    "rainfall_sequence": "1.5|0.75|0.5|0.75|0.5|0.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 51,
+    "input_start": "2025-01-12 03:00:00",
+    "input_end": "2025-01-12 08:00:00",
+    "target_timestamp": "2025-01-12 09:00:00",
+    "rainfall_sequence": "0.75|0.5|0.75|0.5|0.5|1.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 52,
+    "input_start": "2025-01-12 04:00:00",
+    "input_end": "2025-01-12 09:00:00",
+    "target_timestamp": "2025-01-12 10:00:00",
+    "rainfall_sequence": "0.5|0.75|0.5|0.5|1.5|13.75",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 53,
+    "input_start": "2025-01-12 05:00:00",
+    "input_end": "2025-01-12 10:00:00",
+    "target_timestamp": "2025-01-12 11:00:00",
+    "rainfall_sequence": "0.75|0.5|0.5|1.5|13.75|7.25",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 54,
+    "input_start": "2025-01-12 06:00:00",
+    "input_end": "2025-01-12 11:00:00",
+    "target_timestamp": "2025-01-12 12:00:00",
+    "rainfall_sequence": "0.5|0.5|1.5|13.75|7.25|10.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.065",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 55,
+    "input_start": "2025-01-12 07:00:00",
+    "input_end": "2025-01-12 12:00:00",
+    "target_timestamp": "2025-01-12 13:00:00",
+    "rainfall_sequence": "0.5|1.5|13.75|7.25|10.5|14.25",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.065|10.065",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 56,
+    "input_start": "2025-01-12 08:00:00",
+    "input_end": "2025-01-12 13:00:00",
+    "target_timestamp": "2025-01-12 14:00:00",
+    "rainfall_sequence": "1.5|13.75|7.25|10.5|14.25|5.0",
+    "water_level_sequence": "10.064|10.064|10.064|10.065|10.065|10.064",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 57,
+    "input_start": "2025-01-12 09:00:00",
+    "input_end": "2025-01-12 14:00:00",
+    "target_timestamp": "2025-01-12 15:00:00",
+    "rainfall_sequence": "13.75|7.25|10.5|14.25|5.0|8.0",
+    "water_level_sequence": "10.064|10.064|10.065|10.065|10.064|10.065",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 58,
+    "input_start": "2025-01-12 10:00:00",
+    "input_end": "2025-01-12 15:00:00",
+    "target_timestamp": "2025-01-12 16:00:00",
+    "rainfall_sequence": "7.25|10.5|14.25|5.0|8.0|12.5",
+    "water_level_sequence": "10.064|10.065|10.065|10.064|10.065|10.064",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 59,
+    "input_start": "2025-01-12 11:00:00",
+    "input_end": "2025-01-12 16:00:00",
+    "target_timestamp": "2025-01-12 17:00:00",
+    "rainfall_sequence": "10.5|14.25|5.0|8.0|12.5|11.0",
+    "water_level_sequence": "10.065|10.065|10.064|10.065|10.064|10.065",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 60,
+    "input_start": "2025-02-12 00:00:00",
+    "input_end": "2025-02-12 05:00:00",
+    "target_timestamp": "2025-02-12 06:00:00",
+    "rainfall_sequence": "3.25|2.25|7.25|16.5|10.25|0.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.065",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 61,
+    "input_start": "2025-02-12 01:00:00",
+    "input_end": "2025-02-12 06:00:00",
+    "target_timestamp": "2025-02-12 07:00:00",
+    "rainfall_sequence": "2.25|7.25|16.5|10.25|0.5|0.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.065|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 62,
+    "input_start": "2025-02-12 02:00:00",
+    "input_end": "2025-02-12 07:00:00",
+    "target_timestamp": "2025-02-12 08:00:00",
+    "rainfall_sequence": "7.25|16.5|10.25|0.5|0.5|0.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.065|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 63,
+    "input_start": "2025-02-12 03:00:00",
+    "input_end": "2025-02-12 08:00:00",
+    "target_timestamp": "2025-02-12 09:00:00",
+    "rainfall_sequence": "16.5|10.25|0.5|0.5|0.5|1.0",
+    "water_level_sequence": "10.064|10.064|10.065|10.064|10.064|10.064",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 64,
+    "input_start": "2025-02-12 04:00:00",
+    "input_end": "2025-02-12 09:00:00",
+    "target_timestamp": "2025-02-12 10:00:00",
+    "rainfall_sequence": "10.25|0.5|0.5|0.5|1.0|0.5",
+    "water_level_sequence": "10.064|10.065|10.064|10.064|10.064|10.065",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 65,
+    "input_start": "2025-02-12 05:00:00",
+    "input_end": "2025-02-12 10:00:00",
+    "target_timestamp": "2025-02-12 11:00:00",
+    "rainfall_sequence": "0.5|0.5|0.5|1.0|0.5|5.0",
+    "water_level_sequence": "10.065|10.064|10.064|10.064|10.065|10.065",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 66,
+    "input_start": "2025-02-12 06:00:00",
+    "input_end": "2025-02-12 11:00:00",
+    "target_timestamp": "2025-02-12 12:00:00",
+    "rainfall_sequence": "0.5|0.5|1.0|0.5|5.0|3.75",
+    "water_level_sequence": "10.064|10.064|10.064|10.065|10.065|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 67,
+    "input_start": "2025-03-12 00:00:00",
+    "input_end": "2025-03-12 05:00:00",
+    "target_timestamp": "2025-03-12 06:00:00",
+    "rainfall_sequence": "0.5|0.5|1.25|1.25|7.25|1.0",
+    "water_level_sequence": "10.062|10.062|10.061|10.06|10.06|10.059",
+    "target_water_level": 10.059
+  },
+  {
+    "sequence_id": 68,
+    "input_start": "2025-03-12 01:00:00",
+    "input_end": "2025-03-12 06:00:00",
+    "target_timestamp": "2025-03-12 07:00:00",
+    "rainfall_sequence": "0.5|1.25|1.25|7.25|1.0|1.0",
+    "water_level_sequence": "10.062|10.061|10.06|10.06|10.059|10.059",
+    "target_water_level": 10.057
+  },
+  {
+    "sequence_id": 69,
+    "input_start": "2025-03-12 02:00:00",
+    "input_end": "2025-03-12 07:00:00",
+    "target_timestamp": "2025-03-12 08:00:00",
+    "rainfall_sequence": "1.25|1.25|7.25|1.0|1.0|0.75",
+    "water_level_sequence": "10.061|10.06|10.06|10.059|10.059|10.057",
+    "target_water_level": 10.058
+  },
+  {
+    "sequence_id": 70,
+    "input_start": "2025-03-12 03:00:00",
+    "input_end": "2025-03-12 08:00:00",
+    "target_timestamp": "2025-03-12 09:00:00",
+    "rainfall_sequence": "1.25|7.25|1.0|1.0|0.75|1.5",
+    "water_level_sequence": "10.06|10.06|10.059|10.059|10.057|10.058",
+    "target_water_level": 10.06
+  },
+  {
+    "sequence_id": 71,
+    "input_start": "2025-03-12 04:00:00",
+    "input_end": "2025-03-12 09:00:00",
+    "target_timestamp": "2025-03-12 10:00:00",
+    "rainfall_sequence": "7.25|1.0|1.0|0.75|1.5|0.75",
+    "water_level_sequence": "10.06|10.059|10.059|10.057|10.058|10.06",
+    "target_water_level": 10.061
+  },
+  {
+    "sequence_id": 72,
+    "input_start": "2025-03-12 05:00:00",
+    "input_end": "2025-03-12 10:00:00",
+    "target_timestamp": "2025-03-12 11:00:00",
+    "rainfall_sequence": "1.0|1.0|0.75|1.5|0.75|4.0",
+    "water_level_sequence": "10.059|10.059|10.057|10.058|10.06|10.061",
+    "target_water_level": 10.063
+  },
+  {
+    "sequence_id": 73,
+    "input_start": "2025-03-12 15:00:00",
+    "input_end": "2025-03-12 20:00:00",
+    "target_timestamp": "2025-03-12 21:00:00",
+    "rainfall_sequence": "0.5|0.5|0.5|4.0|0.75|1.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 74,
+    "input_start": "2025-03-12 16:00:00",
+    "input_end": "2025-03-12 21:00:00",
+    "target_timestamp": "2025-03-12 22:00:00",
+    "rainfall_sequence": "0.5|0.5|4.0|0.75|1.5|1.25",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.064
+  },
+  {
+    "sequence_id": 75,
+    "input_start": "2025-03-12 17:00:00",
+    "input_end": "2025-03-12 22:00:00",
+    "target_timestamp": "2025-03-12 23:00:00",
+    "rainfall_sequence": "0.5|4.0|0.75|1.5|1.25|0.5",
+    "water_level_sequence": "10.064|10.064|10.064|10.064|10.064|10.064",
+    "target_water_level": 10.063
+  },
+  {
+    "sequence_id": 76,
+    "input_start": "2025-05-12 08:00:00",
+    "input_end": "2025-05-12 13:00:00",
+    "target_timestamp": "2025-05-12 14:00:00",
+    "rainfall_sequence": "1.5|1.0|1.0|1.0|1.5|2.5",
+    "water_level_sequence": "10.064|10.064|10.065|10.064|10.064|10.064",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 77,
+    "input_start": "2025-05-12 09:00:00",
+    "input_end": "2025-05-12 14:00:00",
+    "target_timestamp": "2025-05-12 15:00:00",
+    "rainfall_sequence": "1.0|1.0|1.0|1.5|2.5|10.5",
+    "water_level_sequence": "10.064|10.065|10.064|10.064|10.064|10.065",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 78,
+    "input_start": "2025-05-12 10:00:00",
+    "input_end": "2025-05-12 15:00:00",
+    "target_timestamp": "2025-05-12 16:00:00",
+    "rainfall_sequence": "1.0|1.0|1.5|2.5|10.5|10.0",
+    "water_level_sequence": "10.065|10.064|10.064|10.064|10.065|10.065",
+    "target_water_level": 10.065
+  },
+  {
+    "sequence_id": 79,
+    "input_start": "2025-05-12 11:00:00",
+    "input_end": "2025-05-12 16:00:00",
+    "target_timestamp": "2025-05-12 17:00:00",
+    "rainfall_sequence": "1.0|1.5|2.5|10.5|10.0|7.0",
+    "water_level_sequence": "10.064|10.064|10.064|10.065|10.065|10.065",
+    "target_water_level": 10.065
+  }
+]

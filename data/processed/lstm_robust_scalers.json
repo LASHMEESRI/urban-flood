@@ -1,0 +1,7 @@
+{
+  "rainfall_transform": "log1p",
+  "rainfall_mean": 1.5030223989750673,
+  "rainfall_std": 1.0333931506616896,
+  "water_level_mean": 6.056102477477477,
+  "water_level_std": 4.617999945092762
+}
